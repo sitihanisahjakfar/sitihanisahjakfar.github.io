@@ -1,0 +1,34 @@
+/* Start Body */
+body {
+    background-color: rgb(223, 132, 223);
+    color: white;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1,5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body*/
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(15, 15, 196);
+}
+.bg-red {
+    background-color: rgb(128, 7, 7);
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
