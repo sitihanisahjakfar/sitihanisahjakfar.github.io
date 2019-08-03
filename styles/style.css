@@ -12,10 +12,10 @@ body {
 
 /* Start Debug */
 .bg-blue {
-    background-color: rgb(15, 15, 196);
+    background-color: rgb(197, 197, 247);
 }
 .bg-red {
-    background-color: rgb(128, 7, 7);
+    background-color: rgb(250, 173, 173);
 }
 /* End Debug */
 
@@ -32,3 +32,75 @@ body {
     width: 100%;
 }
 /* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: #333333;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(245, 236, 236, 0.2),
+        0 6px 10px 0 rgba(235, 193, 193, 0.14),
+        0 1px 18px 0 rgba(209, 177, 177, 0.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a{
+    color: #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
